@@ -8,10 +8,10 @@
 import System.Exit
 import System.Environment
 import Operation
-
-
+import Parse 
 
 main :: IO ()
 main = do
     print "what operation do you want :"
-    IO
+    x <- getLine
+    print (words x)

@@ -7,6 +7,14 @@
 
 module Operation where
 
+
+--parkour :: [String] -> Int
+--parkour l !! 1 = "+" addition(ord l !! 0 ord l !! 2)
+--parkour  l !! 1 = "-" substraction(ord l !! 0 ord l !! 2)
+--parkour l !! 1 = "*" multiply(ord l !! 0 ord l !! 2)
+--parkour l !! 1 = "/" divide(ord l !! 0 ord l !! 2) 
+
+
 addition :: Int -> Int -> Int
 addition a b = a + b
 
